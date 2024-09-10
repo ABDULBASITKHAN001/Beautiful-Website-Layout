@@ -1,0 +1,72 @@
+body {
+    background-image: url(design-for-web.jpg);
+    background-size:cover ;
+    background-repeat:no-repeat;
+    background-color: rgba(147, 13, 13 , 0.701);
+    height: 850px;
+    
+}
+
+.logo{
+    text-align: center;
+    font-weight: bold;   
+    font-size: large;
+    margin-top: 100px;
+    font-family: sans-serif;
+    color: rgba(147, 13, 13 , 0.701)
+}
+
+.heading{
+    text-align: center;
+    font-size: 80px;
+    color:rgba(165, 42, 42, 0.701)
+}
+
+.paraa{
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+    color: rgba(165, 42, 42, 0.685);
+    margin-top: -65px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    color: brown;
+    font-family: sans-serif;
+    font-weight: 200px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 1s;   
+}
+
+button:hover{
+    background-color: brown;
+    color: white;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+i{
+    margin-left: 30px;
+}
+
+
+
+.icon {
+    font-size: 24px; 
+    color: #e4405f; 
+    text-decoration: none; 
+}
